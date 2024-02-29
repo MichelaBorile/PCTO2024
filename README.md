@@ -10,7 +10,7 @@ The game consists of a main character navigating through an obstacle course. Eac
 The mini-game involves a dot-to-dot game where the patient must connect dots on the screen using their hands. This activity is designed to engage the patient and aid in their rehabilitation process.
 
 ## Technology
-The hand recognition feature in the game is implemented using the hand pose of the p5.js library. This allows for an interactive and engaging user experience.
+The hand recognition feature in the game is implemented using the machine learning hand pose of the p5.js library. This allows for an interactive and engaging user experience.
 
 ## Installation
 The only requirement for running this game is the p5.js library, which can be downloaded from the internet.
