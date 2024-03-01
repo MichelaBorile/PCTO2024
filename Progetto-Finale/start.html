@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        /* Stile per l'immagine di sfondo */
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('img/start.png');
+            background-size: cover;
+            background-position: center center;
+            height: 100vh; /* Altezza della viewport */
+            position: relative; /* Per posizionare i pulsanti in modo assoluto rispetto al body */
+            display: flex;
+            justify-content: center; /* Allinea orizzontalmente al centro */
+            align-items: center; /* Allinea verticalmente al centro */
+        }
+
+        /* Stile per i pulsanti */
+        .my-button {
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 14px;
+            cursor: pointer;
+            position: absolute; /* Posizionamento assoluto */
+            transform: translate(-50%, -50%); /* Trasla il pulsante di -50% della sua altezza e larghezza per centrarlo */
+            opacity: 0; /* Rende il pulsante invisibile */
+        }
+
+        /* Primo pulsante */
+        .button-1 {
+            background-color: #199319;
+            padding: 100px 183.6px; /* Dimensioni del primo pulsante */
+            top: 57.2%; /* Posizionamento verticale al 20% del body */
+            left: 49.8%; /* Posizionamento orizzontale al 50% del body */
+        }
+
+        /* Secondo pulsante */
+        .button-2 {
+            background-color: #ff4500; /* Colore del secondo pulsante */
+            padding: 35px 148px; /* Dimensioni del secondo pulsante */
+            top: 81%; /* Posizionamento verticale al 50% del body */
+            left: 50.2%; /* Posizionamento orizzontale al 80% del body */
+        }
+    </style>
+</head>
+<body>
+    <a class="my-button button-1" href="index.html">GIOCO</a>
+    <a class="my-button button-2" href="istruzioni.html">ALTRO</a>
+</body>
+</html>
+
+
+
+
+

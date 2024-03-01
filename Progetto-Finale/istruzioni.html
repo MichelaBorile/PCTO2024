@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina istruzioni</title>
+    <style>
+        /* Stile per l'immagine di sfondo */
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('img/sfondoTintaUnita.png'); 
+            background-size: cover;
+            background-position: center center;
+            height: 100vh; /* Altezza della viewport */
+        }
+        /* Stile per il contenitore del testo */
+        .testo-container {
+        text-align: center;
+        padding: 20px;
+        color: white;
+        margin-right: 350px; 
+        }
+        /* Stile per il pulsante */
+        .pulsante {
+            background-color: #3498db; /* Colore blu chiaro */
+            color: white;
+            padding: 10px 20px; /* Spaziatura interna */
+            border: none; /* Rimuovi il bordo */
+            border-radius: 5px; /* Bordo arrotondato */
+            text-decoration: none; /* Rimuovi la sottolineatura del testo */
+            display: inline-block; /* Mostra come blocco inline */
+            font-size: 16px; /* Dimensione del testo */
+            cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+        }
+        /*stile immagine di supporto a spiegazione*/
+        .immagine{
+            clear:both;
+            float:right;
+            margin-top: -30%;
+            margin-right: 2%;
+            margin-bottom: 300%;
+            width: 20%;
+            height: 30%;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- Testo nella parte inferiore -->
+    <!-- Titolo allineato a sinistra -->
+    <div class="testo-container">
+        <h1 style="text-align: left;">ISTRUZIONI</h1>
+    </div>
+
+    <div class="testo-container">   <!-- testo spiegazione --> 
+        <h2 style="text-align: left;">Per poter utilizzare il nostro gioco è sufficiente avere a disposizone un computer e una webcam!<br> <br>Il gioco consiste in un percorso a ostacoli che il nostro personaggio dovrà affrontare, voi dovrete aiutarlo a superare gli ostacoli completando delle figure. <br><br>
+            
+            Questo sarà possibile tramite la webcam che tracciando il vostro dito vi permetterà di disegnare. <br> <br>Per superare il livello bisognerà iniziare la figura dal pallino con il numero 1, procedere seguendo l'ordine dei puntini e tornare sul punto iniziale, su cui bisognerà restare qualche secondo per poter continuare il gioco. <br> <br>La vittoria arriva quando riuscirete a superare tutti i livelli! <br> <br>Alla fine otterrete anche un punteggio in base a quanto sono state eseguite correttamente le figure e sarà visibile anche il numero di errori. Da questi valori oltre a capire la precisione con cui è stata eseguita la figura, si potrà capire inoltre il tempo di esecuzione in quanto: più il punteggio sarà alto più tempo sarà stato impiegato nella realizzazione.
+                                      Non vi resta che iniziare a giocare e divertirvi. </h2>
+        
+
+        <!-- Pulsante con link -->
+        <a class="pulsante" href="start.html">HOME</a>
+    </div>
+    <div id="immagine">  <!-- inserimento immagine -->
+        <img class="immagine" src="img/screen.png" alt="Immagine" >
+    </div>
+</body>
+</html>
